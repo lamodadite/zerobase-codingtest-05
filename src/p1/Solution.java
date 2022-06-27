@@ -26,3 +26,25 @@ public class Solution {
         return false;
     }
 }
+
+// 답안
+//class Solution {
+//    public boolean solution (String s, String t) {
+//        if (s.length() != t.length()) {
+//            return false;
+//        }
+//
+//        char[] sChars = s.toCharArray();
+//        char[] tChars = t.toCharArray();
+//
+//        Arrays.sort(sChars);
+//        Arrays.sort(tChars);
+//
+//        for (int i = 0; i < s.length(); i++) {
+//            if (sChars[i] != tChars[i]) {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+//}
